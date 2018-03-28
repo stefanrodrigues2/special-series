@@ -10,5 +10,5 @@ for n in range(1,1000000):
 		count = count + 1
 	if(count>largest):
 		largest = count
-		index = tmp
-print("Largest count is %i at index %i"%(largest,index))
+		index = tmp+1
+print("Largest count is %i for number %i"%(largest,index))
